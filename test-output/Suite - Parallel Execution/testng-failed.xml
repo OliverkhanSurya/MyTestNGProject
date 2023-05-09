@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [Suite - Parallel Execution]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="TestNGFramwork.TestNGSevenPm.ParallelExecutionOfTestCases">
+        <methods>
+          <include name="validUsernameAndInValidPassword"/>
+          <include name="validUsernameAndValidPassword"/>
+        </methods>
+      </class> <!-- TestNGFramwork.TestNGSevenPm.ParallelExecutionOfTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite - Parallel Execution] -->

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-03T09:58:13Z" name="Default suite" finished-at="2023-05-03T09:59:24Z" duration-ms="71157">
+    <groups>
+    </groups>
+    <test started-at="2023-05-03T09:58:13Z" name="Default test" finished-at="2023-05-03T09:59:24Z" duration-ms="71157">
+      <class name="TestNGFramwork.TestNGSevenPm.MultipleInputs">
+        <test-method signature="googlePage(java.lang.String)[pri:0, instance:TestNGFramwork.TestNGSevenPm.MultipleInputs@4f3bbf68]" started-at="2023-05-03T09:58:13Z" name="googlePage" data-provider="MobilePhones" finished-at="2023-05-03T09:58:22Z" duration-ms="8759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlePage -->
+        <test-method signature="googlePage(java.lang.String)[pri:0, instance:TestNGFramwork.TestNGSevenPm.MultipleInputs@4f3bbf68]" started-at="2023-05-03T09:58:22Z" name="googlePage" data-provider="MobilePhones" finished-at="2023-05-03T09:58:29Z" duration-ms="6795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlePage -->
+        <test-method signature="googlePage(java.lang.String)[pri:0, instance:TestNGFramwork.TestNGSevenPm.MultipleInputs@4f3bbf68]" started-at="2023-05-03T09:58:29Z" name="googlePage" data-provider="MobilePhones" finished-at="2023-05-03T09:58:37Z" duration-ms="8044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlePage -->
+        <test-method signature="googlePage(java.lang.String)[pri:0, instance:TestNGFramwork.TestNGSevenPm.MultipleInputs@4f3bbf68]" started-at="2023-05-03T09:58:37Z" name="googlePage" data-provider="MobilePhones" finished-at="2023-05-03T09:58:43Z" duration-ms="6227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HTC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlePage -->
+        <test-method signature="googlePage(java.lang.String)[pri:0, instance:TestNGFramwork.TestNGSevenPm.MultipleInputs@4f3bbf68]" started-at="2023-05-03T09:58:43Z" name="googlePage" data-provider="MobilePhones" finished-at="2023-05-03T09:58:51Z" duration-ms="8162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OPPO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlePage -->
+        <test-method signature="googlePage(java.lang.String)[pri:0, instance:TestNGFramwork.TestNGSevenPm.MultipleInputs@4f3bbf68]" started-at="2023-05-03T09:58:51Z" name="googlePage" data-provider="MobilePhones" finished-at="2023-05-03T09:58:59Z" duration-ms="7887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RealMe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlePage -->
+        <test-method signature="googlePage(java.lang.String)[pri:0, instance:TestNGFramwork.TestNGSevenPm.MultipleInputs@4f3bbf68]" started-at="2023-05-03T09:58:59Z" name="googlePage" data-provider="MobilePhones" finished-at="2023-05-03T09:59:06Z" duration-ms="7284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[THINQ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlePage -->
+        <test-method signature="googlePage(java.lang.String)[pri:0, instance:TestNGFramwork.TestNGSevenPm.MultipleInputs@4f3bbf68]" started-at="2023-05-03T09:59:06Z" name="googlePage" data-provider="MobilePhones" finished-at="2023-05-03T09:59:14Z" duration-ms="7443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Micromax]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlePage -->
+        <test-method signature="googlePage(java.lang.String)[pri:0, instance:TestNGFramwork.TestNGSevenPm.MultipleInputs@4f3bbf68]" started-at="2023-05-03T09:59:14Z" name="googlePage" data-provider="MobilePhones" finished-at="2023-05-03T09:59:24Z" duration-ms="10475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lenovo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlePage -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:TestNGFramwork.TestNGSevenPm.MultipleInputs@4f3bbf68]" started-at="2023-05-03T09:59:24Z" name="shutDown" finished-at="2023-05-03T09:59:26Z" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- TestNGFramwork.TestNGSevenPm.MultipleInputs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

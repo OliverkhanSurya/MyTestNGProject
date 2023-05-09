@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed Test cases - Retry">
+<listeners>
+
+<listener class-name="retry.testcases.AnnotationTransformer"></listener></listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNGFramwork.TestNGSevenPm.SeleniumAnnotationsDemo"/>
+      <class name="TestNGFramwork.TestNGSevenPm.AnnotationsPractice"/>
+      <class name="TestNGFramwork.TestNGSevenPm.PrioritizingTheTestCases"/>
+      <class name="TestNGFramwork.TestNGSevenPm.BaseClass"/>
+      <class name="TestNGFramwork.TestNGSevenPm.DayOne"/>
+      <class name="TestNGFramwork.TestNGSevenPm.TestCases"/>
+      <class name="TestNGFramwork.TestNGSevenPm.ParallelExecutionOfTestCases"/>
+      <class name="TestNGFramwork.TestNGSevenPm.Dummy"/>
+      <class name="TestNGFramwork.TestNGSevenPm.MultipleInputs"/>
+      <class name="TestNGFramwork.TestNGSevenPm.AssertionTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed Test cases - Retry -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed Test cases - Retry]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="retry.testcases.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestNGFramwork.TestNGSevenPm.AssertionTest">
+        <methods>
+          <include name="test1"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- TestNGFramwork.TestNGSevenPm.AssertionTest -->
+      <class name="TestNGFramwork.TestNGSevenPm.TestCases">
+        <methods>
+          <include name="testCase_TC002"/>
+        </methods>
+      </class> <!-- TestNGFramwork.TestNGSevenPm.TestCases -->
+      <class name="TestNGFramwork.TestNGSevenPm.MultipleInputs">
+        <methods>
+          <include name="googlePage" invocation-numbers="4"/>
+        </methods>
+      </class> <!-- TestNGFramwork.TestNGSevenPm.MultipleInputs -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Failed Test cases - Retry] -->
