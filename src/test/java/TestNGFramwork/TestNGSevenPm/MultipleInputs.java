@@ -67,7 +67,7 @@ public class MultipleInputs {
 
 	@DataProvider(name = "MobilePhones")
 	public String[] datas() {
-		return new String[] { "Iphone", "Samsung", "Nokia", "HTC", "OPPO", "RealMe", "THINQ", "Micromax", "Lenovo" };
+		return new String[] { "Iphone", "Samsung", "Nokia", "HTC", "OPPO", "RealMe", "THINQ", "Micromax", "Lenovo", "HTC", "GooglePixel" };
 
 	}
 	
