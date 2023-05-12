@@ -8,6 +8,7 @@ public class Dummy {
 	@Test
 	public void testDummy() {
 		System.out.println("TestNG framework");
+		System.out.println("Good Evening");
 
 	}
 	
